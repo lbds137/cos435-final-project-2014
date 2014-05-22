@@ -1,0 +1,508 @@
+cluster to split: 0
+split cost is 1.8478370873512104, where split sizes are 909 and 591
+split cost is 1.6161126965687407, where split sizes are 346 and 1154
+split cost is 0.1357573546758929, where split sizes are 1484 and 16
+split cost is 1.6372317944456334, where split sizes are 687 and 813
+split cost is 1.8090137088544629, where split sizes are 831 and 669
+split cost is 1.6992481656506218, where split sizes are 188 and 1312
+split cost is 1.7571869760969805, where split sizes are 1082 and 418
+split cost is 1.7209489599440586, where split sizes are 1003 and 497
+split cost is 1.7112221954266258, where split sizes are 749 and 751
+split cost is 1.7157979666124699, where split sizes are 1100 and 400
+split cost is 1.7755144153985534, where split sizes are 998 and 502
+split cost is 1.7354381416109077, where split sizes are 445 and 1055
+split cost is 1.5790768450259685, where split sizes are 1115 and 385
+split cost is 1.79956293714983, where split sizes are 767 and 733
+split cost is 1.6621410938702228, where split sizes are 1031 and 469
+split cost is 1.6385668428737983, where split sizes are 990 and 510
+split cost is 1.7565940500011052, where split sizes are 982 and 518
+split cost is 1.5611298320150948, where split sizes are 277 and 1223
+split cost is 1.6648094913116058, where split sizes are 1276 and 224
+split cost is 1.715983127481001, where split sizes are 341 and 1159
+split cost is 1.7230838976467187, where split sizes are 680 and 820
+split cost is 1.7262850181324394, where split sizes are 860 and 640
+split cost is 1.592948407555438, where split sizes are 1240 and 260
+split cost is 1.8472542430274554, where split sizes are 589 and 911
+split cost is 1.682616488055252, where split sizes are 451 and 1049
+split cost is 1.785856754235348, where split sizes are 604 and 896
+split cost is 1.5207835481992595, where split sizes are 1116 and 384
+split cost is 1.6877958314546961, where split sizes are 1169 and 331
+split cost is 1.7061420928503814, where split sizes are 782 and 718
+split cost is 1.7743018934922083, where split sizes are 400 and 1100
+split cost is 1.7036323768053114, where split sizes are 539 and 961
+split cost is 1.6523530871349603, where split sizes are 928 and 572
+split cost is 1.7439654176708155, where split sizes are 874 and 626
+split cost is 1.8258080637978096, where split sizes are 942 and 558
+split cost is 1.7345008664784576, where split sizes are 469 and 1031
+split cost is 1.7088075358403154, where split sizes are 637 and 863
+split cost is 1.613460413770407, where split sizes are 661 and 839
+split cost is 1.7734209985819729, where split sizes are 844 and 656
+split cost is 0.06811513821052387, where split sizes are 9 and 1491
+split cost is 1.638640779509454, where split sizes are 526 and 974
+split cost is 1.736894770431402, where split sizes are 950 and 550
+split cost is 1.6636619658728593, where split sizes are 130 and 1370
+split cost is 1.2619963772610066, where split sizes are 66 and 1434
+split cost is 1.6410968290788217, where split sizes are 309 and 1191
+split cost is 1.7248742272077557, where split sizes are 636 and 864
+split cost is 1.6514784280977906, where split sizes are 331 and 1169
+split cost is 1.6553394197409892, where split sizes are 1015 and 485
+split cost is 1.760383017914686, where split sizes are 752 and 748
+split cost is 1.667727939498341, where split sizes are 500 and 1000
+split cost is 1.8167018890683395, where split sizes are 978 and 522
+best split cost is 0.06811513821052387
+cluster to split: 1
+split cost is 1.462415275040751, where split sizes are 136 and 1355
+split cost is 1.4726412731887226, where split sizes are 262 and 1229
+split cost is 1.4919673305055934, where split sizes are 214 and 1277
+split cost is 1.697468947390735, where split sizes are 965 and 526
+split cost is 1.7000434640131528, where split sizes are 826 and 665
+split cost is 1.790132786299861, where split sizes are 520 and 971
+split cost is 1.6354022370514678, where split sizes are 1212 and 279
+split cost is 1.6242069179047762, where split sizes are 508 and 983
+split cost is 1.7581333229119136, where split sizes are 1223 and 268
+split cost is 1.8369058483068919, where split sizes are 710 and 781
+split cost is 1.689009751401556, where split sizes are 1282 and 209
+split cost is 1.831281916557707, where split sizes are 987 and 504
+split cost is 1.75387150863509, where split sizes are 669 and 822
+split cost is 1.6911872932636856, where split sizes are 462 and 1029
+split cost is 1.7682570040871122, where split sizes are 1244 and 247
+split cost is 1.7507489794097908, where split sizes are 891 and 600
+split cost is 1.6477754479223008, where split sizes are 855 and 636
+split cost is 1.6816502500914154, where split sizes are 806 and 685
+split cost is 1.6917411570678231, where split sizes are 476 and 1015
+split cost is 1.6777521282323025, where split sizes are 342 and 1149
+split cost is 1.6949914113628513, where split sizes are 455 and 1036
+split cost is 1.6773300505427646, where split sizes are 676 and 815
+split cost is 1.7053618778274202, where split sizes are 534 and 957
+split cost is 1.7782846201168918, where split sizes are 1032 and 459
+split cost is 1.8211725976618347, where split sizes are 885 and 606
+split cost is 1.54986135523897, where split sizes are 331 and 1160
+split cost is 1.7683363915319057, where split sizes are 472 and 1019
+split cost is 1.6786915196670098, where split sizes are 1257 and 234
+split cost is 1.6945351336963639, where split sizes are 319 and 1172
+split cost is 1.6093673826868682, where split sizes are 231 and 1260
+split cost is 1.770346938517405, where split sizes are 544 and 947
+split cost is 1.6186141156798692, where split sizes are 1038 and 453
+split cost is 1.6639083834063908, where split sizes are 513 and 978
+split cost is 1.4468184281646312, where split sizes are 295 and 1196
+split cost is 1.6786564047765864, where split sizes are 626 and 865
+split cost is 1.8141517351132659, where split sizes are 1051 and 440
+split cost is 1.5145088397495337, where split sizes are 1412 and 79
+split cost is 1.6088776842282595, where split sizes are 199 and 1292
+split cost is 1.6644088849680387, where split sizes are 1162 and 329
+split cost is 1.6729357848951545, where split sizes are 261 and 1230
+split cost is 1.657139316583541, where split sizes are 286 and 1205
+split cost is 1.5722719289530094, where split sizes are 169 and 1322
+split cost is 1.7167372659916433, where split sizes are 832 and 659
+split cost is 1.4753981935304035, where split sizes are 158 and 1333
+split cost is 1.6664436056001883, where split sizes are 511 and 980
+split cost is 1.607608567666671, where split sizes are 146 and 1345
+split cost is 1.50442205107431, where split sizes are 145 and 1346
+split cost is 1.7914598981788974, where split sizes are 745 and 746
+split cost is 1.7442122638951705, where split sizes are 210 and 1281
+split cost is 1.8592008393081154, where split sizes are 1204 and 287
+best split cost is 1.4468184281646312
+cluster to split: 1
+split cost is 1.7058597839019733, where split sizes are 63 and 232
+split cost is 1.3348259450850433, where split sizes are 272 and 23
+split cost is 1.7858871791694253, where split sizes are 195 and 100
+split cost is 1.7704123111076653, where split sizes are 147 and 148
+split cost is 1.6136231947824422, where split sizes are 32 and 263
+split cost is 1.6314981683490357, where split sizes are 45 and 250
+split cost is 1.6758163948100568, where split sizes are 141 and 154
+split cost is 1.6747865072425188, where split sizes are 72 and 223
+split cost is 1.8017104345690995, where split sizes are 73 and 222
+split cost is 1.5696029569706418, where split sizes are 259 and 36
+split cost is 1.7878291963694541, where split sizes are 65 and 230
+split cost is 1.6878852565936837, where split sizes are 181 and 114
+split cost is 1.7913274704913102, where split sizes are 192 and 103
+split cost is 1.504220630189388, where split sizes are 286 and 9
+split cost is 1.6704597891228268, where split sizes are 200 and 95
+split cost is 1.692405493422634, where split sizes are 188 and 107
+split cost is 1.738878314068757, where split sizes are 216 and 79
+split cost is 1.7102223879313452, where split sizes are 248 and 47
+split cost is 1.7662518496834134, where split sizes are 247 and 48
+split cost is 1.8164682087673598, where split sizes are 113 and 182
+split cost is 1.5772396613682964, where split sizes are 250 and 45
+split cost is 1.7793257711961368, where split sizes are 231 and 64
+split cost is 1.8112442972879172, where split sizes are 106 and 189
+split cost is 1.6527451037338183, where split sizes are 96 and 199
+split cost is 1.7046199147410022, where split sizes are 122 and 173
+split cost is 1.6951846382713738, where split sizes are 238 and 57
+split cost is 1.7805085509204732, where split sizes are 143 and 152
+split cost is 1.6680771897925604, where split sizes are 56 and 239
+split cost is 1.739121717051308, where split sizes are 165 and 130
+split cost is 1.7191430201983149, where split sizes are 111 and 184
+split cost is 1.7870262922219116, where split sizes are 119 and 176
+split cost is 1.6813903797283989, where split sizes are 100 and 195
+split cost is 1.7832009145793035, where split sizes are 238 and 57
+split cost is 1.6374994452746527, where split sizes are 108 and 187
+split cost is 1.6453036356059374, where split sizes are 36 and 259
+split cost is 1.705643098402584, where split sizes are 66 and 229
+split cost is 1.7196497023773123, where split sizes are 210 and 85
+split cost is 1.6769509337083663, where split sizes are 181 and 114
+split cost is 1.5902471689088045, where split sizes are 51 and 244
+split cost is 1.726411218457222, where split sizes are 96 and 199
+split cost is 1.6852040790307843, where split sizes are 152 and 143
+split cost is 1.7948192737762123, where split sizes are 128 and 167
+split cost is 1.451742157036033, where split sizes are 47 and 248
+split cost is 1.6704677300820008, where split sizes are 58 and 237
+split cost is 1.7753619846669295, where split sizes are 83 and 212
+split cost is 1.763485719962391, where split sizes are 129 and 166
+split cost is 1.6151593224542489, where split sizes are 80 and 215
+split cost is 1.5993594117645324, where split sizes are 182 and 113
+split cost is 1.780678674587566, where split sizes are 74 and 221
+split cost is 1.768603976706433, where split sizes are 93 and 202
+best split cost is 1.3348259450850433
+cluster to split: 1
+split cost is 1.6569939773783107, where split sizes are 55 and 217
+split cost is 1.766652358938829, where split sizes are 130 and 142
+split cost is 1.7348462479538034, where split sizes are 154 and 118
+split cost is 1.7259420198692026, where split sizes are 54 and 218
+split cost is 1.6957499277328776, where split sizes are 84 and 188
+split cost is 1.737872383389199, where split sizes are 108 and 164
+split cost is 1.752693841733665, where split sizes are 190 and 82
+split cost is 1.659287837764278, where split sizes are 174 and 98
+split cost is 1.5580375399562176, where split sizes are 237 and 35
+split cost is 1.7120876842672512, where split sizes are 209 and 63
+split cost is 1.8003832709107197, where split sizes are 114 and 158
+split cost is 1.664130027957976, where split sizes are 195 and 77
+split cost is 1.6596178445678231, where split sizes are 145 and 127
+split cost is 1.6144906224337836, where split sizes are 228 and 44
+split cost is 1.4976766372286745, where split sizes are 235 and 37
+split cost is 1.7163852294902031, where split sizes are 174 and 98
+split cost is 1.779599122027857, where split sizes are 143 and 129
+split cost is 1.8091833832708122, where split sizes are 135 and 137
+split cost is 1.5969310363257248, where split sizes are 68 and 204
+split cost is 1.6553678039187043, where split sizes are 74 and 198
+split cost is 1.7314974844424922, where split sizes are 140 and 132
+split cost is 1.8187268032560355, where split sizes are 192 and 80
+split cost is 1.7689163296503865, where split sizes are 93 and 179
+split cost is 1.6707904853030748, where split sizes are 169 and 103
+split cost is 1.7638470904000878, where split sizes are 185 and 87
+split cost is 1.63096624088763, where split sizes are 230 and 42
+split cost is 1.6438572417945028, where split sizes are 234 and 38
+split cost is 1.8663719990258256, where split sizes are 210 and 62
+split cost is 1.6786200741611201, where split sizes are 156 and 116
+split cost is 1.386783890386806, where split sizes are 254 and 18
+split cost is 1.7010794673895737, where split sizes are 140 and 132
+split cost is 1.650592227459951, where split sizes are 215 and 57
+split cost is 1.6537021392488602, where split sizes are 222 and 50
+split cost is 1.7044928519176699, where split sizes are 184 and 88
+split cost is 1.676730508051774, where split sizes are 74 and 198
+split cost is 1.632286419476277, where split sizes are 186 and 86
+split cost is 1.691105055173308, where split sizes are 196 and 76
+split cost is 1.7026613881000021, where split sizes are 239 and 33
+split cost is 1.7513141902150677, where split sizes are 155 and 117
+split cost is 1.3823952451377188, where split sizes are 21 and 251
+split cost is 1.8244863640332292, where split sizes are 108 and 164
+split cost is 1.6650965883867372, where split sizes are 82 and 190
+split cost is 1.4982661360372385, where split sizes are 33 and 239
+split cost is 1.6828296680687873, where split sizes are 102 and 170
+split cost is 1.6481705341104074, where split sizes are 34 and 238
+split cost is 1.72449899722822, where split sizes are 112 and 160
+split cost is 1.6097052559447511, where split sizes are 219 and 53
+split cost is 1.5553535873649418, where split sizes are 235 and 37
+split cost is 1.7598856380469576, where split sizes are 186 and 86
+split cost is 1.7940250221002527, where split sizes are 158 and 114
+best split cost is 1.3823952451377188
+cluster to split: 1
+split cost is 1.1144291719514778, where split sizes are 18 and 3
+split cost is 1.0645380015067714, where split sizes are 15 and 6
+split cost is 1.1116670483541766, where split sizes are 6 and 15
+split cost is 1.0009293911287123, where split sizes are 5 and 16
+split cost is 1.1909500489690616, where split sizes are 14 and 7
+split cost is 1.0509310092669972, where split sizes are 9 and 12
+split cost is 0.9315446779624867, where split sizes are 10 and 11
+split cost is 1.0156743952231782, where split sizes are 5 and 16
+split cost is 1.0981609334426794, where split sizes are 13 and 8
+split cost is 1.2139404353001453, where split sizes are 12 and 9
+split cost is 1.168334203577285, where split sizes are 10 and 11
+split cost is 1.1958138882352167, where split sizes are 9 and 12
+split cost is 1.132256243102868, where split sizes are 10 and 11
+split cost is 1.3433888432342118, where split sizes are 11 and 10
+split cost is 1.0200985036988368, where split sizes are 7 and 14
+split cost is 1.2465169414732218, where split sizes are 13 and 8
+split cost is 1.0009293911287123, where split sizes are 5 and 16
+split cost is 0.8375876396367871, where split sizes are 1 and 20
+split cost is 1.130306986300262, where split sizes are 14 and 7
+split cost is 1.1236775456412955, where split sizes are 8 and 13
+split cost is 1.1346296394200384, where split sizes are 7 and 14
+split cost is 1.0554841151478231, where split sizes are 5 and 16
+split cost is 1.169791739092592, where split sizes are 14 and 7
+split cost is 1.0509310092669972, where split sizes are 9 and 12
+split cost is 1.2144640541258178, where split sizes are 6 and 15
+split cost is 1.1605528335193163, where split sizes are 6 and 15
+split cost is 0.9534865068400835, where split sizes are 4 and 17
+split cost is 0.8087867983584722, where split sizes are 18 and 3
+split cost is 1.1958138882352167, where split sizes are 9 and 12
+split cost is 0.9348679034739369, where split sizes are 7 and 14
+split cost is 1.1582796903161656, where split sizes are 16 and 5
+split cost is 0.9777945448311767, where split sizes are 3 and 18
+split cost is 1.1068413880781112, where split sizes are 8 and 13
+split cost is 1.0272095823386826, where split sizes are 5 and 16
+split cost is 1.0554841151478231, where split sizes are 5 and 16
+split cost is 1.1550102259582176, where split sizes are 7 and 14
+split cost is 0.9827124484880234, where split sizes are 3 and 18
+split cost is 1.1713891009299946, where split sizes are 5 and 16
+split cost is 1.0367212801256511, where split sizes are 17 and 4
+split cost is 1.0645380015067714, where split sizes are 15 and 6
+split cost is 1.1683342035772846, where split sizes are 11 and 10
+split cost is 1.1558850091020094, where split sizes are 11 and 10
+split cost is 1.2856193498137443, where split sizes are 8 and 13
+split cost is 1.0999743434568352, where split sizes are 12 and 9
+split cost is 0.9733367648519993, where split sizes are 3 and 18
+split cost is 1.001080569242156, where split sizes are 17 and 4
+split cost is 1.1097220502315748, where split sizes are 16 and 5
+split cost is 0.952218392270547, where split sizes are 15 and 6
+split cost is 1.157240790454668, where split sizes are 14 and 7
+split cost is 0.949165096120335, where split sizes are 17 and 4
+best split cost is 0.8087867983584722
+cluster to split: 2
+split cost is 1.731758121557546, where split sizes are 436 and 760
+split cost is 1.7195661433362002, where split sizes are 893 and 303
+split cost is 1.6995565486615622, where split sizes are 487 and 709
+split cost is 1.6994714970439573, where split sizes are 141 and 1055
+split cost is 1.8091584575382593, where split sizes are 850 and 346
+split cost is 1.5205210868313732, where split sizes are 1145 and 51
+split cost is 1.4581215060215, where split sizes are 130 and 1066
+split cost is 1.7654610853922952, where split sizes are 747 and 449
+split cost is 1.8605651190540626, where split sizes are 330 and 866
+split cost is 1.672609693459052, where split sizes are 595 and 601
+split cost is 1.5872827340116298, where split sizes are 254 and 942
+split cost is 1.815068411523531, where split sizes are 714 and 482
+split cost is 1.7215046345418947, where split sizes are 1034 and 162
+split cost is 1.6473553318774652, where split sizes are 835 and 361
+split cost is 1.5505720147895516, where split sizes are 1134 and 62
+split cost is 1.66517125750891, where split sizes are 1098 and 98
+split cost is 1.7258800189156243, where split sizes are 499 and 697
+split cost is 1.786497024337037, where split sizes are 195 and 1001
+split cost is 1.648931014507955, where split sizes are 572 and 624
+split cost is 1.6567055771610513, where split sizes are 125 and 1071
+split cost is 1.5138337857643511, where split sizes are 1126 and 70
+split cost is 1.7371365054085275, where split sizes are 214 and 982
+split cost is 1.7614799455201962, where split sizes are 389 and 807
+split cost is 1.4264934885775078, where split sizes are 31 and 1165
+split cost is 1.6420976261658953, where split sizes are 109 and 1087
+split cost is 1.6085804433767352, where split sizes are 102 and 1094
+split cost is 1.696702615335848, where split sizes are 65 and 1131
+split cost is 1.6643167407093649, where split sizes are 305 and 891
+split cost is 1.6056080396587502, where split sizes are 114 and 1082
+split cost is 1.507100150975874, where split sizes are 1035 and 161
+split cost is 1.6968884264692257, where split sizes are 515 and 681
+split cost is 1.6495973881076913, where split sizes are 81 and 1115
+split cost is 1.8298720023850739, where split sizes are 512 and 684
+split cost is 1.8265094232382273, where split sizes are 466 and 730
+split cost is 0.47288151390279887, where split sizes are 1185 and 11
+split cost is 1.6800993537063589, where split sizes are 826 and 370
+split cost is 1.7296519837140765, where split sizes are 863 and 333
+split cost is 1.8350692460335103, where split sizes are 394 and 802
+split cost is 1.674551658780166, where split sizes are 477 and 719
+split cost is 1.5439488300139366, where split sizes are 1133 and 63
+split cost is 1.7173059335439294, where split sizes are 873 and 323
+split cost is 1.7913677147729195, where split sizes are 981 and 215
+split cost is 1.7730301250391445, where split sizes are 539 and 657
+split cost is 1.4757116355952835, where split sizes are 1160 and 36
+split cost is 1.669585538005565, where split sizes are 281 and 915
+split cost is 1.7426183602955576, where split sizes are 687 and 509
+split cost is 1.6239810103278356, where split sizes are 46 and 1150
+split cost is 1.6526617065710194, where split sizes are 468 and 728
+split cost is 1.6899610585836253, where split sizes are 962 and 234
+split cost is 1.745829752689413, where split sizes are 346 and 850
+best split cost is 0.47288151390279887
+cluster to split: 1
+split cost is 1.064146724038562, where split sizes are 12 and 6
+split cost is 1.0036371878877532, where split sizes are 4 and 14
+split cost is 0.9603221865832339, where split sizes are 13 and 5
+split cost is 1.1589537234846239, where split sizes are 11 and 7
+split cost is 1.0244838214176095, where split sizes are 8 and 10
+split cost is 0.905901364264214, where split sizes are 15 and 3
+split cost is 0.9469330528603608, where split sizes are 4 and 14
+split cost is 0.9011449464560268, where split sizes are 12 and 6
+split cost is 0.9059013642642141, where split sizes are 3 and 15
+split cost is 0.9603221865832339, where split sizes are 13 and 5
+split cost is 0.9469330528603607, where split sizes are 14 and 4
+split cost is 1.0724661246416771, where split sizes are 3 and 15
+split cost is 0.970119301448839, where split sizes are 2 and 16
+split cost is 0.9398204131397734, where split sizes are 2 and 16
+split cost is 1.0662572219336517, where split sizes are 16 and 2
+split cost is 0.881615176351003, where split sizes are 10 and 8
+split cost is 1.0427747477761589, where split sizes are 7 and 11
+split cost is 0.9230685488823678, where split sizes are 4 and 14
+split cost is 1.2066662908681303, where split sizes are 16 and 2
+split cost is 0.8962624110597512, where split sizes are 13 and 5
+split cost is 1.0317112225750555, where split sizes are 8 and 10
+split cost is 1.0641467240385623, where split sizes are 6 and 12
+split cost is 0.8957129866546907, where split sizes are 14 and 4
+split cost is 1.1273439358154862, where split sizes are 5 and 13
+split cost is 1.109315639348586, where split sizes are 12 and 6
+split cost is 1.2282681156454236, where split sizes are 8 and 10
+split cost is 1.0244838214176097, where split sizes are 10 and 8
+split cost is 0.9421561654168601, where split sizes are 16 and 2
+split cost is 1.0074188762562994, where split sizes are 4 and 14
+split cost is 1.2346582690184822, where split sizes are 7 and 11
+split cost is 0.9603221865832339, where split sizes are 5 and 13
+split cost is 1.109315639348586, where split sizes are 6 and 12
+split cost is 1.1273439358154862, where split sizes are 5 and 13
+split cost is 0.8802901650130448, where split sizes are 17 and 1
+split cost is 1.2975696649728377, where split sizes are 3 and 15
+split cost is 1.1052389685099968, where split sizes are 14 and 4
+split cost is 0.9011449464560273, where split sizes are 6 and 12
+split cost is 1.0560021013960423, where split sizes are 13 and 5
+split cost is 0.9668395266232244, where split sizes are 2 and 16
+split cost is 1.0761805560545834, where split sizes are 15 and 3
+split cost is 1.0641467240385623, where split sizes are 6 and 12
+split cost is 1.0204678072847062, where split sizes are 15 and 3
+split cost is 1.0858881162129252, where split sizes are 11 and 7
+split cost is 0.9421561654168601, where split sizes are 16 and 2
+split cost is 1.0518219361041015, where split sizes are 3 and 15
+split cost is 1.1789393051429482, where split sizes are 10 and 8
+split cost is 0.7813104964153694, where split sizes are 1 and 17
+split cost is 0.8154561333582744, where split sizes are 2 and 16
+split cost is 1.1767061459813215, where split sizes are 9 and 9
+split cost is 1.1281774376878442, where split sizes are 13 and 5
+best split cost is 0.7813104964153694
+cluster to split: 4
+split cost is 1.7816785197112197, where split sizes are 162 and 89
+split cost is 1.7776105639522102, where split sizes are 146 and 105
+split cost is 1.6600540521183453, where split sizes are 165 and 86
+split cost is 1.6578857034525707, where split sizes are 36 and 215
+split cost is 1.690306596312919, where split sizes are 117 and 134
+split cost is 1.6027014351802962, where split sizes are 201 and 50
+split cost is 1.6472497708838678, where split sizes are 210 and 41
+split cost is 1.5339157023891412, where split sizes are 18 and 233
+split cost is 1.7501935994312945, where split sizes are 197 and 54
+split cost is 1.6785078351162228, where split sizes are 181 and 70
+split cost is 1.8017556284813476, where split sizes are 105 and 146
+split cost is 1.6260139598787338, where split sizes are 80 and 171
+split cost is 1.7544123377149798, where split sizes are 178 and 73
+split cost is 1.7314837156027536, where split sizes are 191 and 60
+split cost is 1.753824926240581, where split sizes are 216 and 35
+split cost is 1.5865114472697313, where split sizes are 64 and 187
+split cost is 1.6605269313071598, where split sizes are 57 and 194
+split cost is 1.652142006271028, where split sizes are 97 and 154
+split cost is 1.5804225348333656, where split sizes are 216 and 35
+split cost is 1.6883577884268015, where split sizes are 201 and 50
+split cost is 1.829838609580399, where split sizes are 142 and 109
+split cost is 1.581158603902242, where split sizes are 122 and 129
+split cost is 1.7552788740610836, where split sizes are 54 and 197
+split cost is 1.69578328274679, where split sizes are 48 and 203
+split cost is 1.7554297962869836, where split sizes are 176 and 75
+split cost is 1.6570449463117845, where split sizes are 131 and 120
+split cost is 1.7051350220724206, where split sizes are 115 and 136
+split cost is 1.7147028851410335, where split sizes are 112 and 139
+split cost is 1.8084938570914804, where split sizes are 150 and 101
+split cost is 1.8196975428299083, where split sizes are 71 and 180
+split cost is 1.577880763822126, where split sizes are 42 and 209
+split cost is 1.565219801858471, where split sizes are 187 and 64
+split cost is 1.5473096217410194, where split sizes are 229 and 22
+split cost is 1.7156402241502124, where split sizes are 60 and 191
+split cost is 1.659088087019927, where split sizes are 198 and 53
+split cost is 1.6642961214319145, where split sizes are 224 and 27
+split cost is 1.6599405951694837, where split sizes are 215 and 36
+split cost is 1.8213198546906937, where split sizes are 73 and 178
+split cost is 1.6430777539189716, where split sizes are 190 and 61
+split cost is 1.3740831506887392, where split sizes are 10 and 241
+split cost is 1.6693541216612653, where split sizes are 55 and 196
+split cost is 1.7781699592908133, where split sizes are 197 and 54
+split cost is 1.7878256663995855, where split sizes are 65 and 186
+split cost is 1.7557575502144829, where split sizes are 118 and 133
+split cost is 1.7832794918119927, where split sizes are 99 and 152
+split cost is 1.6921259157352342, where split sizes are 117 and 134
+split cost is 1.6919483949706566, where split sizes are 164 and 87
+split cost is 1.4148765753566872, where split sizes are 239 and 12
+split cost is 1.398543607235308, where split sizes are 244 and 7
+split cost is 1.8289024478864429, where split sizes are 112 and 139
+best split cost is 1.3740831506887392
+cluster to split: 2
+split cost is 1.8242012741293716, where split sizes are 828 and 357
+split cost is 1.6822501133917553, where split sizes are 926 and 259
+split cost is 1.644957463191722, where split sizes are 731 and 454
+split cost is 1.6604921407542186, where split sizes are 600 and 585
+split cost is 1.4098195982232142, where split sizes are 1147 and 38
+split cost is 1.7440999613967745, where split sizes are 190 and 995
+split cost is 1.7608903797865991, where split sizes are 283 and 902
+split cost is 1.684451608732215, where split sizes are 725 and 460
+split cost is 1.67262022776663, where split sizes are 530 and 655
+split cost is 1.8555172214848215, where split sizes are 882 and 303
+split cost is 1.6539128956989417, where split sizes are 894 and 291
+split cost is 1.6704326631709545, where split sizes are 82 and 1103
+split cost is 1.71771902480908, where split sizes are 247 and 938
+split cost is 1.7394122322992098, where split sizes are 136 and 1049
+split cost is 1.890517198871549, where split sizes are 622 and 563
+split cost is 1.6792266373264588, where split sizes are 161 and 1024
+split cost is 1.8057829768596516, where split sizes are 970 and 215
+split cost is 1.6141224341331861, where split sizes are 1023 and 162
+split cost is 1.6311033245997346, where split sizes are 400 and 785
+split cost is 1.6993000503207467, where split sizes are 954 and 231
+split cost is 1.7627280432406947, where split sizes are 750 and 435
+split cost is 1.7796408547693536, where split sizes are 327 and 858
+split cost is 1.77835008218509, where split sizes are 618 and 567
+split cost is 1.5857875919243982, where split sizes are 1053 and 132
+split cost is 1.7764142111330792, where split sizes are 388 and 797
+split cost is 1.540269050074969, where split sizes are 995 and 190
+split cost is 1.7421053602288157, where split sizes are 351 and 834
+split cost is 1.571430890660813, where split sizes are 201 and 984
+split cost is 1.8086528548037988, where split sizes are 889 and 296
+split cost is 1.7274850088051275, where split sizes are 502 and 683
+split cost is 1.8432526790660373, where split sizes are 703 and 482
+split cost is 1.7732022134194039, where split sizes are 760 and 425
+split cost is 1.637578305161591, where split sizes are 243 and 942
+split cost is 1.6310030886912448, where split sizes are 714 and 471
+split cost is 1.7763434933685467, where split sizes are 509 and 676
+split cost is 1.8185259365140056, where split sizes are 391 and 794
+split cost is 1.7621465986880678, where split sizes are 920 and 265
+split cost is 1.8442631526124584, where split sizes are 1009 and 176
+split cost is 1.8187634554978076, where split sizes are 259 and 926
+split cost is 1.7534705380052986, where split sizes are 925 and 260
+split cost is 1.4511783013675095, where split sizes are 50 and 1135
+split cost is 1.56390090550144, where split sizes are 1119 and 66
+split cost is 1.7021343082332334, where split sizes are 1054 and 131
+split cost is 1.671405973617944, where split sizes are 324 and 861
+split cost is 1.7773293165889368, where split sizes are 489 and 696
+split cost is 1.394334080781292, where split sizes are 42 and 1143
+split cost is 1.6481640364480779, where split sizes are 131 and 1054
+split cost is 1.7703479264574744, where split sizes are 713 and 472
+split cost is 1.8099879296461836, where split sizes are 198 and 987
+split cost is 1.730929511941381, where split sizes are 284 and 901
+best split cost is 1.394334080781292
+-------
+Cluster 0 contains the following document IDs:
+{ 85 552 696 818 953 1087 1226 1364 1499 }
+-------
+-------
+Cluster 1 contains the following document IDs:
+{ 93 }
+-------
+-------
+Cluster 2 contains the following document IDs:
+{ 107 108 128 129 202 203 205 206 208 251 252 321 324 359 516 518 519 520 531 534 536 643 644 650 663 761 791 821 909 911 912 925 1050 1054 1094 1095 1097 1102 1176 1289 1323 1450 }
+-------
+-------
+Cluster 3 contains the following document IDs:
+{ 72 73 80 223 224 225 387 388 525 613 668 783 900 901 906 1038 1041 1110 1180 1200 1201 1317 1455 }
+-------
+-------
+Cluster 4 contains the following document IDs:
+{ 39 86 104 181 215 307 372 667 1057 1243 }
+-------
+-------
+Cluster 5 contains the following document IDs:
+{ 933 1365 1463 }
+-------
+-------
+Cluster 6 contains the following document IDs:
+{ 46 759 1088 1103 1119 1138 1178 1182 1198 1216 1234 }
+-------
+-------
+Cluster 7 contains the following document IDs:
+{ 10 33 119 360 374 486 642 655 919 1065 1072 1211 1330 1349 1482 1484 1491 }
+-------
+-------
+Cluster 8 contains the following document IDs:
+{ 21 25 31 37 40 41 42 44 48 49 50 58 60 67 68 71 77 81 82 84 87 88 89 90 91 92 95 96 97 98 99 100 101 102 122 125 158 170 171 173 179 180 182 183 188 192 194 211 218 219 221 227 240 241 248 267 300 302 303 305 306 308 310 311 312 313 314 315 317 318 343 344 347 351 352 354 358 364 370 383 394 448 451 471 478 482 483 485 495 500 502 513 529 537 538 539 540 541 545 546 547 548 549 550 551 606 609 612 614 615 616 618 620 626 654 659 661 662 665 670 673 690 694 697 705 708 709 710 711 712 713 716 784 798 816 817 820 825 826 827 828 829 836 842 852 902 903 904 907 913 916 917 918 920 921 922 956 957 958 959 960 961 962 964 965 967 968 969 1005 1010 1035 1036 1037 1039 1040 1042 1043 1044 1056 1058 1061 1063 1089 1091 1092 1096 1104 1106 1107 1108 1111 1112 1114 1115 1116 1117 1179 1181 1187 1191 1192 1193 1204 1236 1237 1238 1239 1241 1242 1246 1247 1248 1249 1250 1251 1262 1311 1312 1315 1318 1328 1337 1346 1366 1367 1370 1371 1375 1378 1380 1381 1384 1385 1386 1387 1388 1451 1452 1458 1466 1467 }
+-------
+-------
+Cluster 9 contains the following document IDs:
+{ 0 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19 20 22 23 24 26 27 28 29 30 32 34 35 36 38 43 45 47 51 52 53 54 55 56 57 59 61 62 63 64 65 66 69 70 74 75 76 78 79 83 94 103 105 106 109 110 111 112 113 114 115 116 117 118 120 121 123 124 126 127 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 159 160 161 162 163 164 165 166 167 168 169 172 174 175 176 177 178 184 185 186 187 189 190 191 193 195 196 197 198 199 200 201 204 207 209 210 212 213 214 216 217 220 222 226 228 229 230 231 232 233 234 235 236 237 238 239 242 243 244 245 246 247 249 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 301 304 309 316 319 320 322 323 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 345 346 348 349 350 353 355 356 357 361 362 363 365 366 367 368 369 371 373 375 376 377 378 379 380 381 382 384 385 386 389 390 391 392 393 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 449 450 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 472 473 474 475 476 477 479 480 481 484 487 488 489 490 491 492 493 494 496 497 498 499 501 503 504 505 506 507 508 509 510 511 512 514 515 517 521 522 523 524 526 527 528 530 532 533 535 542 543 544 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 607 608 610 611 617 619 621 622 623 624 625 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 645 646 647 648 649 651 652 653 656 657 658 660 664 666 669 671 672 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689 691 692 693 695 698 699 700 701 702 703 704 706 707 714 715 717 718 719 720 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 760 762 763 764 765 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 782 785 786 787 788 789 790 792 793 794 795 796 797 799 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 819 822 823 824 830 831 832 833 834 835 837 838 839 840 841 843 844 845 846 847 848 849 850 851 853 854 855 856 857 858 859 860 861 862 863 864 865 866 867 868 869 870 871 872 873 874 875 876 877 878 879 880 881 882 883 884 885 886 887 888 889 890 891 892 893 894 895 896 897 898 899 905 908 910 914 915 923 924 926 927 928 929 930 931 932 934 935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 951 952 954 955 963 966 970 971 972 973 974 975 976 977 978 979 980 981 982 983 984 985 986 987 988 989 990 991 992 993 994 995 996 997 998 999 1000 1001 1002 1003 1004 1006 1007 1008 1009 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1045 1046 1047 1048 1049 1051 1052 1053 1055 1059 1060 1062 1064 1066 1067 1068 1069 1070 1071 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1084 1085 1086 1090 1093 1098 1099 1100 1101 1105 1109 1113 1118 1120 1121 1122 1123 1124 1125 1126 1127 1128 1129 1130 1131 1132 1133 1134 1135 1136 1137 1139 1140 1141 1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 1154 1155 1156 1157 1158 1159 1160 1161 1162 1163 1164 1165 1166 1167 1168 1169 1170 1171 1172 1173 1174 1175 1177 1183 1184 1185 1186 1188 1189 1190 1194 1195 1196 1197 1199 1202 1203 1205 1206 1207 1208 1209 1210 1212 1213 1214 1215 1217 1218 1219 1220 1221 1222 1223 1224 1225 1227 1228 1229 1230 1231 1232 1233 1235 1240 1244 1245 1252 1253 1254 1255 1256 1257 1258 1259 1260 1261 1263 1264 1265 1266 1267 1268 1269 1270 1271 1272 1273 1274 1275 1276 1277 1278 1279 1280 1281 1282 1283 1284 1285 1286 1287 1288 1290 1291 1292 1293 1294 1295 1296 1297 1298 1299 1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 1310 1313 1314 1316 1319 1320 1321 1322 1324 1325 1326 1327 1329 1331 1332 1333 1334 1335 1336 1338 1339 1340 1341 1342 1343 1344 1345 1347 1348 1350 1351 1352 1353 1354 1355 1356 1357 1358 1359 1360 1361 1362 1363 1368 1369 1372 1373 1374 1376 1377 1379 1382 1383 1389 1390 1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1405 1406 1407 1408 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420 1421 1422 1423 1424 1425 1426 1427 1428 1429 1430 1431 1432 1433 1434 1435 1436 1437 1438 1439 1440 1441 1442 1443 1444 1445 1446 1447 1448 1449 1453 1454 1456 1457 1459 1460 1461 1462 1464 1465 1468 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478 1479 1480 1481 1483 1485 1486 1487 1488 1489 1490 1492 1493 1494 1495 1496 1497 1498 }
+-------
