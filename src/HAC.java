@@ -9,51 +9,47 @@ public class HAC {
 
     private Data d;
     private int N;
+    private int numClusters;
     private double[][] docSims; // initial document similarities
     private double[][] clusterSims; // similarity matrix C
     private ArrayList<ArrayList<Integer>> clusters;
     private ArrayList<ArrayList<Integer>> merges; // rows ordered by temporal order of merges
-    private int numClusters;
+    private ArrayList<Double> mergeSims; // similarities of clusters merged during each merge step
+    private ArrayList<Double> avgClusterSims;
     
     public HAC(Data d, int numClusters){
         this.d = d;
         N = d.getDocs().length;
-        
         docSims = d.getSims();
         clusterSims = new double[N][N];
-        clusters = new ArrayList<ArrayList<Integer>>(N);
+        clusters = new ArrayList<ArrayList<Integer>>(N); // start with N clusters
         merges = new ArrayList<ArrayList<Integer>>();
+        mergeSims = new ArrayList<Double>();
+        avgClusterSims = new ArrayList<Double>();
+        this.numClusters = N;
         for (int i = 0; i < N; i++) {
             // initialize singleton clusters
             clusters.add(new ArrayList<Integer>()); 
             clusters.get(i).add(i);
             clusterSims[i] = Arrays.copyOf(docSims[i], N); // make a copy so we don't mess up original doc sims
         }
-        this.numClusters = N;
         
+        // do cluster merging until there are numClusters left
         while (this.numClusters > numClusters) {
             ArrayList<Integer> indices = identifyMerge();
             merge(indices);
             updateSims(indices);
         }
-    }
-    private void merge(ArrayList<Integer> indices) {
-        int toIndex = indices.get(0);
-        int fromIndex = indices.get(1);
-        ArrayList<Integer> to = clusters.get(toIndex);
-        ArrayList<Integer> from = clusters.get(fromIndex);
-        //System.out.println("to size: " + to.size() + " ; from size: " + from.size());
-        
-        // do merge
-        while (from.size() > 0) {
-            to.add(from.remove(0));
+        // sort each cluster, remove empty clusters, and compute average cluster similarities
+        ArrayList<ArrayList<Integer>> nonEmptyClusters = new ArrayList<ArrayList<Integer>>(numClusters);
+        for (ArrayList<Integer> cluster : clusters) {
+            if (cluster.size() > 0) {
+                Collections.sort(cluster);
+                nonEmptyClusters.add(cluster);
+                avgClusterSims.add(d.getAvgSim(cluster));
+            }
         }
-        //System.out.println("to size: " + to.size() + " ; from size: " + from.size());
-        
-        // update merges data structure
-        merges.add(indices);
-        numClusters -= 1;
-        //System.out.println("merge done!");
+        clusters = nonEmptyClusters;
     }
     private ArrayList<Integer> identifyMerge() {
         ArrayList<Integer> indices = new ArrayList<Integer>(2);
@@ -71,28 +67,26 @@ public class HAC {
                 }
             }
         }
-        // ordering of merges: merge smaller cluster into larger cluster, or 
-        // if equal size merge higher index into lower index
-        if (clusters.get(iLargestSim).size() > clusters.get(iLargestSim).size()) {
-            indices.add(iLargestSim);
-            indices.add(jLargestSim);
-        }
-        else if (clusters.get(iLargestSim).size() < clusters.get(iLargestSim).size()) {
-            indices.add(jLargestSim);
-            indices.add(iLargestSim);
-        }
-        else {
-            if (iLargestSim < jLargestSim) {
-                indices.add(iLargestSim);
-                indices.add(jLargestSim);
-            }
-            else {
-                indices.add(jLargestSim);
-                indices.add(iLargestSim);
-            }
-        }
+        indices.add(iLargestSim);
+        indices.add(jLargestSim);
+        mergeSims.add(largestSim);
         //System.out.println("about to merge clusters " + indices.get(0) + " and " + indices.get(1) + " with similarity score " + largestSim);
         return indices;
+    }
+    private void merge(ArrayList<Integer> indices) {
+        int toIndex = indices.get(0);
+        int fromIndex = indices.get(1);
+        ArrayList<Integer> to = clusters.get(toIndex);
+        ArrayList<Integer> from = clusters.get(fromIndex);
+        //System.out.println("to size: " + to.size() + " ; from size: " + from.size());
+        // do merge
+        while (from.size() > 0) {
+            to.add(from.remove(0));
+        }
+        //System.out.println("to size: " + to.size() + " ; from size: " + from.size());
+        // update merges data structure
+        merges.add(indices);
+        numClusters -= 1;
     }
     private void updateSims(ArrayList<Integer> indices) {
         int toIndex = indices.get(0);
@@ -118,47 +112,38 @@ public class HAC {
             clusterSims[toIndex][i] = smallestSim;
             //System.out.println("smallest sim for " + i + " and " + toIndex + " is " + smallestSim);
         }
-        //System.out.println("updated similarities!");
     }
     
     /* Getters */
     
+    public ArrayList<ArrayList<Integer>> getClusters() {
+        return clusters;
+    }
     public ArrayList<ArrayList<Integer>> getMerges() {
         return merges;
     }
-    public ArrayList<ArrayList<Integer>> getClusters() {
-        ArrayList<ArrayList<Integer>> nonEmptyClusters = new ArrayList<ArrayList<Integer>>();
-        for (ArrayList<Integer> cluster : clusters) {
-            if (cluster.size() > 0) {
-                nonEmptyClusters.add(cluster);
-                Collections.sort(cluster);
-            }
-        }
-        return nonEmptyClusters;
+    public ArrayList<Double> getMergeSims() {
+        return mergeSims;
+    }
+    public ArrayList<Double> getAvgClusterSims() {
+        return avgClusterSims;
     }
     
     /* Debugging / print methods */
     
     public void printClusters() {
-        for (int i = 0; i < N; i++) {
-            ArrayList<Integer> cluster = clusters.get(i);
-            if (cluster.size() > 0) {
-                Collections.sort(cluster);
-                System.out.println("-------");
-                System.out.println("Cluster " + i + " contains the following document IDs:");
-                System.out.print("{ ");
-                for (int j = 0; j < clusters.get(i).size(); j++) {
-                    System.out.print(clusters.get(i).get(j) + " ");
-                }
-                System.out.print("}");
-                System.out.print("\n");
-                System.out.println("-------");
+        for (ArrayList<Integer> cluster : clusters) {
+            System.out.print("{ ");
+            for (int i = 0; i < cluster.size(); i++) {
+                System.out.print(cluster.get(i) + " ");
             }
+            System.out.print("}\n");
         }
     }
     public void printMerges() {
         for (int i = 0; i < merges.size(); i++) {
-            System.out.println(i + "th merge: cluster " + merges.get(i).get(1) + " merged into cluster " + merges.get(i).get(0));
+            System.out.println(i + "th merge: cluster " + merges.get(i).get(1) + " merged into cluster " + 
+                               merges.get(i).get(0) + " with similarity " + mergeSims.get(i));
         }
     }
     
@@ -167,7 +152,7 @@ public class HAC {
     public static void main(String[] args) {
         Data d = new Data("docword.nips.txt", "vocab.nips.txt");
         HAC h = new HAC(d, 10);
-        h.printMerges();
+        //h.printMerges();
         h.printClusters();
     }
 }
