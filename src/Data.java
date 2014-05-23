@@ -122,37 +122,116 @@ public class Data {
         }
     }
     
+    /* Utility methods */
+    
+    public double getAvgSim(ArrayList<Integer> cluster) {
+        double avgSim = 0;
+        for (int j = 0; j < cluster.size(); j++) {
+            int docJ = cluster.get(j);
+            for (int k = 0; k < cluster.size(); k++) {
+                //if (j == k) continue;
+                int docK = cluster.get(k);
+                avgSim += sims[docJ][docK];
+            }
+        }
+        avgSim /= (cluster.size() * cluster.size()); // take average (i.e. normalize)
+        return avgSim;
+    }
+    // returns <positive agreement, negative agreement>
+    public ArrayList<Double> clusteringAgreement(ArrayList<ArrayList<Integer>> cOne, ArrayList<ArrayList<Integer>> cTwo) {
+        if (cOne.size() != cTwo.size()) return null; // clusterings must be same size
+        int numClusters = cOne.size();
+        int numPairsPosAgree = 0;
+        int numPairsNegAgree = 0;
+        double numPairsTotal = D * D;
+        for (int i = 0; i < D; i++) {
+            for (int j = 0; j < D; j++) {
+                int iIndexOne = -1;
+                int jIndexOne = -1;
+                int iIndexTwo = -1;
+                int jIndexTwo = -1;
+                for (int k = 0; k < numClusters; k++) {
+                    if (iIndexOne == -1 && jIndexOne == -1) {
+                        iIndexOne = cOne.get(k).indexOf(i);
+                        jIndexOne = cOne.get(k).indexOf(j);
+                    }
+                    if (iIndexTwo == -1 && jIndexTwo == -1) {
+                        iIndexTwo = cTwo.get(k).indexOf(i);
+                        jIndexTwo = cTwo.get(k).indexOf(j);
+                    }
+                }
+                boolean cOneDiff = ((iIndexOne > -1 && jIndexOne == -1) || (iIndexOne == -1 && jIndexOne > -1));
+                boolean cTwoDiff = ((iIndexTwo > -1 && jIndexTwo == -1) || (iIndexTwo == -1 && jIndexTwo > -1));
+                boolean cOneSame = ((iIndexOne > -1 && jIndexOne > -1) || (iIndexOne == -1 && jIndexOne == -1));
+                boolean cTwoSame = ((iIndexTwo > -1 && jIndexTwo > -1) || (iIndexTwo == -1 && jIndexTwo == -1));
+                if (cOneSame && cTwoSame) numPairsPosAgree += 1;
+                else if (cOneDiff && cTwoDiff) numPairsNegAgree += 1;
+            }
+        }
+        ArrayList<Double> agreements = new ArrayList<Double>(2);
+        agreements.add(numPairsPosAgree / numPairsTotal);
+        agreements.add(numPairsNegAgree / numPairsTotal);
+        return agreements;
+    }
+    
     /* Testing */
     
     public static void main(String[] args) {
+        boolean useArgs = false;
+        if (args.length > 0) {
+            try {
+                Integer.parseInt(args[0]);
+                Integer.parseInt(args[1]);
+                Boolean.parseBoolean(args[2]);
+                useArgs = true;
+            }
+            catch (Exception e) {
+            }
+        }
+        int numClusters;
+        int numIterations;
+        boolean normalize;
+        if (useArgs) {
+            numClusters = Integer.parseInt(args[0]);
+            numIterations = Integer.parseInt(args[1]); 
+            normalize = Boolean.parseBoolean(args[2]);
+        }
+        else {
+            numClusters = 100;
+            numIterations = 5;
+            normalize = true;
+        }
         Data d = new Data("docword.nips.txt", "vocab.nips.txt");
-        int[][] docs = d.getDocs();
-        String[] vocab = d.getVocab();
+        HAC hac = new HAC(d, numClusters);
+        HDC hdc = new HDC(d, numClusters, numIterations, normalize);
         
-        //d.printDocVectors();
+        // print clusters for HAC and HDC
+        System.out.println("-------");
+        hac.printClusters();
+        System.out.println("-------");
+        hdc.printClusters();
+        System.out.println("-------");
         
-        /*
-        int randDocID = (int) (Math.random() * docs.length);
-        int randWordID = (int) (Math.random() * docs[0].length);
-        System.out.println("Random document ID " + randDocID + " and random word ID " + randWordID + ":");
-        System.out.println(docs[randDocID][randWordID]);
-        System.out.println(vocab[randWordID]);
-        
-        ArrayList<ArrayList<Integer>> invertedIndex = d.getInvertedIndex();
-        System.out.println("Inverted index for word:");
-        for (Integer i : invertedIndex.get(randWordID)) {
-            System.out.println("doc ID: " + i + "; count: " + docs[i][randWordID]);
+        ArrayList<Double> hacAvgClusterSims = hac.getAvgClusterSims();
+        ArrayList<Double> hdcAvgClusterSims = hdc.getAvgClusterSims();
+        double hacAvgSim = 0;
+        double hdcAvgSim = 0;
+        for (int i = 0; i < numClusters; i++) {
+            hacAvgSim += hacAvgClusterSims.get(i);
+            hdcAvgSim += hdcAvgClusterSims.get(i);
         }
-        
-        // print out some similarities
-        int randDocID2 = (int) (Math.random() * docs.length);
-        for (int i = 0; i < 10; i++) {
-            randDocID = (int) (Math.random() * docs.length);
-            randDocID2 = (int) (Math.random() * docs.length);
-            System.out.println("Similarity of doc1 " + randDocID + " and doc2 " + randDocID2 + " is: " + d.getSims()[randDocID][randDocID2]);
-        }
-        // verify that self-similarity is 1
-        System.out.println("Similarity of doc " + randDocID + " to itself is: " + d.getSims()[randDocID][randDocID]);
-        */
+        hacAvgSim /= numClusters;
+        hdcAvgSim /= numClusters;
+        System.out.println("HAC average of average cluster similarities: " + hacAvgSim);
+        System.out.println("HDC average of average cluster similarities: " + hdcAvgSim);
+        ArrayList<Double> agreements = d.clusteringAgreement(hac.getClusters(), hdc.getClusters());
+        double posAgreement = agreements.get(0);
+        double negAgreement = agreements.get(1);
+        double agreement = posAgreement + negAgreement;
+        double disagreement = 1 - agreement;
+        System.out.println("Clustering positive agreement: " + posAgreement);
+        System.out.println("Clustering negative agreement: " + negAgreement);
+        System.out.println("Clustering agreement composite: " + agreement);
+        System.out.println("Clustering disagreement: " + disagreement);
     }
 }
